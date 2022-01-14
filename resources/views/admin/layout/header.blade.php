@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Admin Area - Paradise Resort</a>
+                <a class="navbar-brand" href="index.html">Admin Area - Guest House</a>
             </div>
             <!-- /.navbar-header -->
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Admin - Paradise Resort</title>
+    <title>Admin - Guest House</title>
     <base href="{{asset('')}}">
     <!-- Bootstrap Core CSS -->
    

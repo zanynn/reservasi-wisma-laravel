@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">About
-                            <small>Paradise Resort</small>
+                            <small>Guest House</small>
                         </h1>
                     </div>
                     <!-- /.col-lg-12 -->
@@ -20,7 +20,7 @@
                     <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                         <thead>
                             <tr align="center">
-                                <th>Nội dung miêu tả</th>
+                                <th>Deksripsi Konten</th>
                                 <th>Image</th>
                                 <th>Video</th>
                                 

@@ -58,7 +58,7 @@
             <div class="flipper">
               <div class="front" style="background-image: url(images/person_3.jpg);">
                 <div class="box">
-                  <h2>Huỳnh Tấn Duy</h2>
+                  <h2>Nia Amellya</h2>
                   <p>President</p>
                 </div>
               </div>
@@ -71,7 +71,7 @@
                   <div class="image mr-3 align-self-center">
                     <img src="images/person_3.jpg" alt="">
                   </div>
-                  <div class="name align-self-center">Will Peters <span class="position">President</span></div>
+                  <div class="name align-self-center">Nia Amellya <span class="position">President</span></div>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@
             <div class="flipper">
               <div class="front" style="background-image: url(images/person_1.jpg);">
                 <div class="box">
-                  <h2>Huỳnh Thị Phương Duy</h2>
+                  <h2>Muhammad Fauzan Tri Aji</h2>
                   <p>Business Manager</p>
                 </div>
               </div>
@@ -96,7 +96,7 @@
                   <div class="image mr-3 align-self-center">
                     <img src="images/person_1.jpg" alt="">
                   </div>
-                  <div class="name align-self-center">Jane Williams <span class="position">Business Manager</span></div>
+                  <div class="name align-self-center">Fauzan Tri Anjai <span class="position">Business Manager</span></div>
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="flipper">
               <div class="front" style="background-image: url(images/person_2.jpg);">
                 <div class="box">
-                  <h2>Nguyễn Văn Vinh</h2>
+                  <h2>Elfira Satya Pramesti</h2>
                   <p>Marketing Director</p>
                 </div>
               </div>
@@ -121,7 +121,7 @@
                   <div class="image mr-3 align-self-center">
                     <img src="images/person_2.jpg" alt="">
                   </div>
-                  <div class="name align-self-center">Jeffrey Neddery <span class="position">Marketing Director</span></div>
+                  <div class="name align-self-center">Elfira Satya Pramesti <span class="position">Marketing Director</span></div>
                 </div>
               </div>
             </div>

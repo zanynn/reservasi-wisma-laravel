@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center" data-aos="fade-up">
-            <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To 5 <span class="fa fa-star text-primary"></span>   Hotel</span>
+            <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To Reservasi Guest House</span>
             <h1 class="heading">{{$infor->slogan}}</h1>
             <a href="reservation/{1}" class="btn btn-outline-white-primary py-3 text-white px-5">Reserve Now</a>
           </div>
