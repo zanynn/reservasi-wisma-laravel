@@ -36,7 +36,7 @@
                                     <td>{{$ev->body}}</td>
                                     <td> <img style="max-width: 200px;max-height: 200px;" src="{{$ev->image}}"> </td>
                                     <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/event/edit/{{$ev->id}}">Edit</a></td>
-                                    <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/event/delete/{{$ev->id}}" onclick="return confirm('Bạn có chắc muốn xóa ?');"> Delete</a></td>
+                                    <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/event/delete/{{$ev->id}}" onclick="return confirm('Are you sure you want to delete?');"> Delete</a></td>
                                     
                                 </tr>
                             @endforeach

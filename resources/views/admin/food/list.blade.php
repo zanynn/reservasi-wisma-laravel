@@ -36,7 +36,7 @@
                                     <td>{{$f->description}}</td>
                                     <td>{{$f->price}}</td>
                                     <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/food/edit/{{$f->id}}">Edit</a></td>
-                                    <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/food/delete/{{$f->id}}" onclick="return confirm('Bạn có chắc muốn xóa ?');"> Delete</a></td>
+                                    <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/food/delete/{{$f->id}}" onclick="return confirm('Are you sure you want to delete?');"> Delete</a></td>
                                     
                                 </tr>
                             @endforeach
