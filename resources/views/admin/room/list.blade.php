@@ -21,8 +21,8 @@
                 <thead>
                     <tr align="center">
                         <th>ID</th>
-                        <th>Nama Ruangan</th>
-                        <th>Jenis Kamar</th>
+                        <th>Rooms Name</th>
+                        <th>Type of Room</th>
                         <th>Status</th>
                         <th>Edit</th>
                         <th>Delete</th>

@@ -21,9 +21,9 @@
                         <thead>
                             <tr align="center">
                                 <th>ID</th>
-                                <th>Tên Event</th>
-                                <th>Nội dung</th>
-                                <th>Hình ảnh</th>
+                                <th>Name Event</th>
+                                <th>Description</th>
+                                <th>Image</th>
                                 <th>Delete</th>
                                 <th>Edit</th>
                             </tr>

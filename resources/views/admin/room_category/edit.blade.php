@@ -32,7 +32,7 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <div class="form-group">
-                                <label>Tên loại phòng </label>
+                                <label>Type of Rooms</label>
                                 <input class="form-control" name="name" value="{{$category_room->name}}"  />
                             </div>
 

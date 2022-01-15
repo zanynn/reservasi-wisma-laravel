@@ -32,17 +32,17 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <div class="form-group">
-                                <label>Tên loại phòng </label>
+                                <label>Room Type Name </label>
                                 <input class="form-control" name="name"  />
                             </div>
 
                             <div class="form-group">
-                                <label>Ảnh </label>
+                                <label>Photo </label>
                                 <input type="file" class="form-control" name="image"  />
                             </div>
 
                             <div class="form-group">
-                                <label>Giá </label>
+                                <label>Price </label>
                                 <input  class="form-control" name="price"  />
                             </div>
 

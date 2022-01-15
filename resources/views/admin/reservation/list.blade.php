@@ -21,9 +21,9 @@
                 <thead>
                     <tr align="center">
                         {{-- <th>ID</th> --}}
-                        <th>Nama Ruangan</th>
-                        <th>Nama Lengkap Pelanggan</th>
-                        <th>Nomor Telepon</th>
+                        <th>Rooms Name</th>
+                        <th>Fullname</th>
+                        <th>Phone Number</th>
                         <th>Email</th>
                         <th>Check In</th>
                         <th>Check Out</th>
