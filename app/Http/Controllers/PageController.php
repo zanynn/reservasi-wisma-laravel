@@ -83,8 +83,31 @@ class PageController extends Controller
         // $food=new Food();
         // $food_data=$food->GetById(3);
         // var_dump($food_data);return;
-        return view('pages.Home', ['food_category' => $food_category, 'review' => $review]);
+        return view('pages.Home1', ['food_category' => $food_category, 'review' => $review]);
     }
+    public function HomeMadidihang()
+    {
+        $food_category = CategoryFood::all();
+        $food_category = $this->category_food->GetAll();
+        //return $this->builder->getInfor();
+        $review = Review::all();
+        // $food=new Food();
+        // $food_data=$food->GetById(3);
+        // var_dump($food_data);return;
+        return view('pages.Home_madidihang', ['food_category' => $food_category, 'review' => $review]);
+    }
+    public function HomeAlbakor()
+    {
+        $food_category = CategoryFood::all();
+        $food_category = $this->category_food->GetAll();
+        //return $this->builder->getInfor();
+        $review = Review::all();
+        // $food=new Food();
+        // $food_data=$food->GetById(3);
+        // var_dump($food_data);return;
+        return view('pages.Home_albakor', ['food_category' => $food_category, 'review' => $review]);
+    }
+
     public function About()
     {
         return view('pages.About');
