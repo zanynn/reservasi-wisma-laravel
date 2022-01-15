@@ -21,10 +21,10 @@
                 <thead>
                     <tr align="center">
                         <th>ID</th>
-                        <th>Nama Tipe Kamar</th>
-                        <th>Foto</th>
-                        <th>Harga</th>
-                        <th>Keterangan</th>
+                        <th>Name Type Room</th>
+                        <th>Photo</th>
+                        <th>Price</th>
+                        <th>Description</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>

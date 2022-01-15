@@ -21,7 +21,7 @@
                 <thead>
                     <tr align="center">
                         <th>ID</th>
-                        <th>Tautan gambar</th>
+                        <th>Photo</th>
                         <th>Caption</th>
 
                         <th>Edit</th>

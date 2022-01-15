@@ -22,8 +22,8 @@
                         <thead>
                             <tr align="center">
                                 {{-- <th>ID</th> --}}
-                                <th>Nội dung</th>
-                                <th>Chi phí</th>
+                                <th>Content</th>
+                                <th>Cost</th>
                                 <th>Delete</th>
                             </tr>
                         </thead>

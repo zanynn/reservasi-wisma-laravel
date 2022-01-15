@@ -33,11 +33,11 @@
                            
                            
                             <div class="form-group">
-                                <label>Nội dung</label>
+                                <label>Content</label>
                                 <input class="form-control" name="content" placeholder="Please Enter Body" />
                             </div>
                              <div class="form-group">
-                                <label>Harga</label>
+                                <label>Price</label>
                                 <input class="form-control" name="price" placeholder="Please Enter Body" />
                             </div>
                            

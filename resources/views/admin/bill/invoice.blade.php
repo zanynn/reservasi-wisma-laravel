@@ -11,8 +11,8 @@
 	<table>
 		<thead>
 		    <tr>
-		    	<th><h2>Nội dung</h2></th>
-		        <th><h2>Giá</h2></th>
+		    	<th><h2>Content</h2></th>
+		        <th><h2>Price</h2></th>
 		    </tr>
 	    </thead>
     <tbody>

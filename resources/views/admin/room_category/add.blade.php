@@ -47,7 +47,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Mô tả </label>
+                                <label>Description </label>
                                 <input  class="form-control" name="description"  />
                             </div>
 

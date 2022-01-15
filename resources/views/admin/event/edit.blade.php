@@ -32,15 +32,15 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <div class="form-group">
-                                <label>Tên Event</label>
+                                <label>Name Event</label>
                                 <input class="form-control" name="name" value="{{$event->name}}" />
                             </div>
                             <div class="form-group">
-                                <label>Nội dung</label>
+                                <label>Content</label>
                                 <input class="form-control" name="body" value="{{$event->body}}"/>
                             </div>
                             <div class="form-group">
-                                <label>Hình ảnh</label>
+                                <label>Image</label>
                                 <input type="file" class="form-control" name="image"  />
                             </div>
                             

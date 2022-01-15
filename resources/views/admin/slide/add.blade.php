@@ -32,7 +32,7 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <div class="form-group">
-                                <label>Link hình ảnh </label>
+                                <label>Link Image </label>
                                 <input type="file" class="form-control" name="link"  />
                             </div>
                             <div class="form-group">

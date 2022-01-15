@@ -40,7 +40,7 @@
                                 <input class="form-control" name="description" placeholder="Please Enter description" />
                             </div>
                             <div class="form-group">
-                                <label>Giá</label>
+                                <label>Price</label>
                                 <input class="form-control" name="price" placeholder="Please Enter Price" />
                             </div>
                             
