@@ -16,6 +16,13 @@ Route::get('home', 'PageController@Home');
 Route::get('about', 'PageController@About');
 Route::get('event', 'PageController@Event');
 Route::get('rooms', 'PageController@Rooms');
+<<<<<<< HEAD
+=======
+
+Route::get('madidihang', 'PageController@HomeMadidihang');
+Route::get('albakor', 'PageController@HomeAlbakor');
+
+>>>>>>> fd66f4a06bb56cfb0929f1158d89efcf10aa9384
 Route::get('reservation/{idCate}', 'PageController@Reservation');
 Route::post('postReservation', 'PageController@postReservation');
 Route::get('exportBill', 'UserController@ExportBill');
@@ -57,6 +64,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'adminLogin'], function () {
 	});	//Route for About
 
 	Route::group(['prefix' => 'event'], function () {
+<<<<<<< HEAD
 
 		Route::get('list', 'EventController@getEvent');
 
@@ -68,6 +76,19 @@ Route::group(['prefix' => 'admin', 'middleware' => 'adminLogin'], function () {
 
 
 
+=======
+
+		Route::get('list', 'EventController@getEvent');
+
+		Route::get('edit/{id}', 'EventController@Edit');
+		Route::post('editPost/{id}', 'EventController@EditPost');
+
+		Route::get('add', 'EventController@Add');
+		Route::post('addpost', 'EventController@AddPost');
+
+
+
+>>>>>>> fd66f4a06bb56cfb0929f1158d89efcf10aa9384
 		Route::get('delete/{id}', 'EventController@Delete');
 	});	//Route for Event
 

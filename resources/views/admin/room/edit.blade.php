@@ -32,24 +32,24 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <<div class="form-group">
-                                <label>Tên phòng </label>
+                                <label>Room Name </label>
                                 <input class="form-control" name="name" value="{{$room->name}}"  />
                             </div>
                             <div class="form-group">
-                                <label>Loại phòng</label>
+                                <label>Type of Rooms</label>
                                 <select class="form-control" name="idCategory">
-                                    <label>Loại phòng</label>
+                                    <label>Type of Rooms</label>
                                     @foreach ($categoryRoom as $cr)
                                     <option value="{{$cr->id}}" @if ($cr->id==$room->idCategory) {{"selected"}} @endif > {{$cr->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Tình trạng</label>
+                                <label>Status</label>
                                 <select class="form-control" name="status">
-                                    <label>Tình trạng</label>
-                                    <option value="1" @if ($room->Status==1) {{"selected"}} @endif > Trống</option>
-                                    <option value="0"  @if ($room->Status==0) {{"selected"}} @endif > Đã được đặt</option>
+                                    <label>Status</label>
+                                    <option value="1" @if ($room->Status==1) {{"selected"}} @endif > Empty</option>
+                                    <option value="0"  @if ($room->Status==0) {{"selected"}} @endif > Reserved</option>
                               
                                 </select>
                             </div>

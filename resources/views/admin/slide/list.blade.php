@@ -21,7 +21,7 @@
                 <thead>
                     <tr align="center">
                         <th>ID</th>
-                        <th>Tautan gambar</th>
+                        <th>Photo</th>
                         <th>Caption</th>
 
                         <th>Edit</th>
@@ -36,7 +36,7 @@
                         <td>{{$sl->caption}}</td>
 
                         <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/slide/edit/{{$sl->id}}">Edit</a></td>
-                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/slide/delete/{{$sl->id}}" onclick="return confirm('Bạn có chắc muốn xóa ?');"> Delete</a></td>
+                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/slide/delete/{{$sl->id}}" onclick="return confirm('Are you sure you want to delete?');"> Delete</a></td>
 
                     </tr>
                     @endforeach

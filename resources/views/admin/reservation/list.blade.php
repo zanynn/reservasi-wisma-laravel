@@ -21,9 +21,9 @@
                 <thead>
                     <tr align="center">
                         {{-- <th>ID</th> --}}
-                        <th>Nama Ruangan</th>
-                        <th>Nama Lengkap Pelanggan</th>
-                        <th>Nomor Telepon</th>
+                        <th>Rooms Name</th>
+                        <th>Fullname</th>
+                        <th>Phone Number</th>
                         <th>Email</th>
                         <th>Check In</th>
                         <th>Check Out</th>
@@ -52,7 +52,7 @@
 
                         <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/reservation/edit/{{$r->id}}">Edit</a></td>
                         <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/bill/list/{{$r->id}}"> View details</a></td>
-                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/reservation/delete/{{$r->id}}" onclick="return confirm('Bạn có chắc muốn xóa ?');"> Delete</a></td>
+                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/reservation/delete/{{$r->id}}" onclick="return confirm('Are you sure you want to delete?');"> Delete</a></td>
 
 
                     </tr>

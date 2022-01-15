@@ -6,8 +6,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Tin Tức
-                            <small>Thêm</small>
+                        <h1 class="page-header">Information
+                            <small>More</small>
                         </h1>
                     </div>
                     <!-- /.col-lg-12 -->
@@ -36,9 +36,9 @@
                              @csrf
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-group">
-                                <label>Thể Loại</label>
+                                <label>Category</label>
                                 <select class="form-control" name="idTheLoai" id="TheLoai">
-                                    <option value="0">Chọn Thể Loại</option>
+                                    <option value="0">Select Genre</option>
                                     @foreach ($theloai as $tl)
                                     <option value="{{$tl->id}}">{{$tl->Ten}}</option>
                                     @endforeach
@@ -47,40 +47,40 @@
                             <div class="form-group">
                                 <label>Loại Tin</label>
                                 <select class="form-control" name="idLoaiTin" id="LoaiTin">
-                                    <option value="0">Chọn Loại Tin</option>
+                                    <option value="0">Select Message Type</option>
                                     @foreach ($loaitin as $lt)
                                     <option value="{{$lt->id}}">{{$lt->Ten}}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Tiêu Đề</label>
+                                <label>Title</label>
                                 <input class="form-control" name="TieuDe" placeholder="Please Enter Category Name" />
                             </div>
                             <div class="form-group">
-                                <label>Tóm tắt</label>
+                                <label>Summary</label>
                                 <textarea id="demo" name="TomTat" class="form-control ckeditor"> </textarea>
                             </div>
                             <div class="form-group">
-                                <label>Nội Dung</label>
+                                <label>Content</label>
                                 <textarea id="demo" name="NoiDung" class="form-control ckeditor"> </textarea>
                             </div>
                             <div>
-                                <label>Hình Ảnh</label>
+                                <label>Image</label>
                                 <input type="file" name="Hinh">
                             </div>
                             <div class="form-group">
-                                <label>Nổi Bật</label>
+                                <label>Highlights</label>
                                 <label class="radio-inline">
-                                    <input name="NoiBat" value="0" type="radio">Không
+                                    <input name="NoiBat" value="0" type="radio">No
                                 </label>
                                 <label class="radio-inline">
-                                    <input name="NoiBat" value="1" checked="" type="radio">Có
+                                    <input name="NoiBat" value="1" checked="" type="radio">Yes
                                 </label>
                                 
                             </div>
 
-                            <button type="submit" class="btn btn-default">Thêm </button>
+                            <button type="submit" class="btn btn-default">Edit </button>
                             <button type="reset" class="btn btn-default">Reset</button>
                         <form>
                     </div>

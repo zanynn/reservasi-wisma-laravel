@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Tin Tức
+                        <h1 class="page-header">Information
                             <small>{{$tintuc->TieuDe}}</small>
                         </h1>
                     </div>
@@ -28,7 +28,7 @@
                         <form action="admin/tintuc/suapost/{{$tintuc->id}}" method="POST" enctype="multipart/form-data">
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-group">
-                                <label>Thể Loại</label>
+                                <label>Category</label>
                                 <select class="form-control" name='idTheLoai'>
 
                                     @foreach ($theloai as $tl)
@@ -57,45 +57,45 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Tiêu Đề</label>
+                                <label>Title</label>
                                 <input class="form-control" name="TieuDe" value="{{$tintuc->TieuDe}}" />
                             </div>
                             <div class="form-group">
-                                <label>Tóm tắt</label>
+                                <label>Summary</label>
                                 <textarea id="demo" name="TomTat" class="form-control ckeditor">
                                     {{$tintuc->TomTat}}
                                 </textarea>
                             </div>
                             <div class="form-group">
-                                <label>Nội Dung</label>
+                                <label>Content</label>
                                 <textarea id="demo" name="NoiDung" class="form-control ckeditor">
                                     {{$tintuc->NoiDung}}
                                 </textarea>
                             </div>
                             <div>
-                                <label>Hình Ảnh</label>
+                                <label>Image</label>
                                 <img width="300px" src="Upload/tintuc/{{$tintuc->Hinh}}">
                                 <input type="file" name="Hinh" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label>Nổi Bật</label>
+                                <label>Highlights</label>
                                 <label class="radio-inline">
                                     <input name="NoiBat" value="0" 
                                     @if ($tintuc->NoiBat==0) {{"checked"}}
                                     @endif
-                                    type="radio">Không
+                                    type="radio">No
                                 </label>
                                 <label class="radio-inline">
                                     <input name="NoiBat" value="1" checked="" 
                                     @if ($tintuc->NoiBat==0) {{"checked"}}
                                     @endif
-                                    type="radio">Có
+                                    type="radio">Yes
                                 </label>
                                 
                             </div>
                            
                             
-                            <button type="submit" class="btn btn-default">Sửa</button>
+                            <button type="submit" class="btn btn-default">Edit</button>
                             <button type="reset" class="btn btn-default">Reset</button>
                         <form>
                     </div>
@@ -105,7 +105,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">Comment
-                            <small>Danh sách</small>
+                            <small>List</small>
                         </h1>
                     </div>
                     <!-- /.col-lg-12 -->
@@ -119,8 +119,8 @@
                             <tr align="center">
                                 <th>ID</th>
                                 <th>User</th>
-                                <th>Nội Dung</th>
-                                <th>Ngày Tạo</th>
+                                <th>Content</th>
+                                <th>Date created</th>
                                 <th>Delete</th>
                                 
                             </tr>

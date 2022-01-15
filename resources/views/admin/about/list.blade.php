@@ -20,7 +20,7 @@
                     <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                         <thead>
                             <tr align="center">
-                                <th>Deksripsi Konten</th>
+                                <th>Description Content</th>
                                 <th>Image</th>
                                 <th>Video</th>
                                 

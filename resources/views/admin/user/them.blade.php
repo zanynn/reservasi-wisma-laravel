@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">User
-                            <small>Thêm</small>
+                            <small>More</small>
                         </h1>
                     </div>
                     <!-- /.col-lg-12 -->
@@ -45,7 +45,7 @@
                                 <input type="Password" class="form-control" name="password" placeholder="Please Enter Password" value="" />
                             </div>
                             <div class="form-group">
-                                <label>Quyền</label>
+                                <label>Permission</label>
                                 <input disabled class="form-control" name="type" value="Nhân viên" />
                                 
                             </div>
@@ -53,7 +53,7 @@
                             
                              
 
-                            <button type="submit" class="btn btn-default">Thêm </button>
+                            <button type="submit" class="btn btn-default">Edit </button>
                             <button type="reset" class="btn btn-default">Reset</button>
                         <form>
                     </div>

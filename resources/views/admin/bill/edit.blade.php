@@ -32,15 +32,15 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <div class="form-group">
-                                <label>Nama Konten</label>
+                                <label>Name Content</label>
                                 <input class="form-control" name="name" value="{{$event->name}}" />
                             </div>
                             <div class="form-group">
-                                <label>Deskripsi</label>
+                                <label>Description</label>
                                 <input class="form-control" name="body" value="{{$event->body}}"/>
                             </div>
                             <div class="form-group">
-                                <label>Gambar</label>
+                                <label>Photo</label>
                                 <input class="form-control" name="image" value="{{$event->image}}" />
                             </div>
                             

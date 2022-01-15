@@ -21,10 +21,10 @@
                 <thead>
                     <tr align="center">
                         <th>ID</th>
-                        <th>Nama Tipe Kamar</th>
-                        <th>Foto</th>
-                        <th>Harga</th>
-                        <th>Keterangan</th>
+                        <th>Name Type Room</th>
+                        <th>Photo</th>
+                        <th>Price</th>
+                        <th>Description</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>
@@ -41,7 +41,7 @@
 
 
                         <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/category_room/edit/{{$r->id}}">Edit</a></td>
-                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/category_room/delete/{{$r->id}}" onclick="return confirm('Bạn có chắc muốn xóa ?');"> Delete</a></td>
+                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/category_room/delete/{{$r->id}}" onclick="return confirm('Are you sure you want to delete?');"> Delete</a></td>
 
                     </tr>
                     @endforeach

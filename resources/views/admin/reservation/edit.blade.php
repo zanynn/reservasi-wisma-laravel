@@ -32,20 +32,20 @@
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                            
                             <div class="form-group">
-                                <label>Tên phòng </label>
+                                <label>Room Name </label>
                                 <select class="form-control" name="idRoom">
-                                    <label>Tên phòng</label>
+                                    <label>Room Name</label>
                                     @foreach ($room as $r)
                                     <option value="{{$r->id}}" @if ($r->id==$reservation->idRoom) {{"selected"}} @endif > {{$r->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Họ tên khách hàng</label>
+                                <label>Name Reservation</label>
                                 <input class="form-control" name="name" placeholder="Please Enter Price" value="{{$reservation->name}}" />
                             </div>
                             <div class="form-group">
-                                <label>Số điện thoại</label>
+                                <label>Phone Number</label>
                                 <input class="form-control" name="phone" placeholder="Please Enter Price" value="{{$reservation->phone}}" />
                             </div>
                             <div class="form-group">
